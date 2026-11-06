@@ -75,7 +75,6 @@ flag_susp(c)
 def log_textfile(lognew):
     fileob=open("logs.txt","w")
     for i in lognew:
-        # fileob.write(i+"\n")
-        fileob.write(i)
+        fileob.write(i+"\n")
     fileob.close()
 log_textfile(val)
